@@ -1,4 +1,4 @@
-import { Either, left, rigth } from '@/core/either'
+import { Either, left, right } from '@/core/either'
 import { Notification } from '../../enterprise/entities/notification'
 import { NotificationsRepository } from '../repositories/notificationsRepository'
 import { ResourceNotFoundError } from '@/core/errors/errors/resource-not-found-error'
@@ -38,7 +38,7 @@ export class ReadNotificationUseCase {
 
     await this.notificationRepository.create(notification)
 
-    return rigth({
+    return right({
       notification,
     })
   }

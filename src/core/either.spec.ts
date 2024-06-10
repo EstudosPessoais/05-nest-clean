@@ -1,8 +1,8 @@
-import { Either, left, rigth } from './either'
+import { Either, left, right } from './either'
 
 function doSomething(ShouldSuccess: boolean): Either<string, number> {
   if (ShouldSuccess) {
-    return rigth(10)
+    return right(10)
   } else {
     return left('error')
   }

@@ -1,4 +1,4 @@
-import { Either, left, rigth } from '@/core/either'
+import { Either, left, right } from '@/core/either'
 import { Answer } from '../../enterprise/entities/answer'
 import { AnswersRepository } from '../repositories/answers-repository'
 import { NotAllowedError } from '@/core/errors/errors/not-allowed-error'
@@ -65,7 +65,7 @@ export class EditAnswerUseCase {
 
     await this.answerRepository.save(answer)
 
-    return rigth({
+    return right({
       answer,
     })
   }

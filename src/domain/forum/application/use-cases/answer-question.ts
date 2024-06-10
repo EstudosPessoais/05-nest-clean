@@ -1,7 +1,7 @@
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 import { Answer } from '@/domain/forum/enterprise/entities/answer'
 import { AnswersRepository } from '@/domain/forum/application/repositories/answers-repository'
-import { Either, rigth } from '@/core/either'
+import { Either, right } from '@/core/either'
 import { AnswerAttachment } from '../../enterprise/entities/answer-attachment'
 import { AnswerAttachmentList } from '../../enterprise/entities/answer-attachment-list'
 
@@ -45,7 +45,7 @@ export class AnswerQuestionUseCase {
 
     await this.answersRepository.create(answer)
 
-    return rigth({
+    return right({
       answer,
     })
   }
