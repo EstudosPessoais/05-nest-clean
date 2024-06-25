@@ -42,8 +42,6 @@ export class EditAnswerController {
       attachmentsIds: [],
     })
 
-    console.log('resultado: ', result.isRight())
-
     if (result.isLeft()) {
       throw new BadRequestException()
     }
