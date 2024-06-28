@@ -10,7 +10,7 @@ export class PrismaAnswersRepository implements AnswersRepository {
   constructor(private prisma: PrismaService) {}
 
   async findById(id: string): Promise<Answer | null> {
-    const answer = await this.prisma.answer.findUnique({
+    const answer = await this.prisma.answer.findFirst({
       where: {
         id,
       },
