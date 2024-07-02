@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      05-nest-clean:
+        specifier: 'link:'
+        version: 'link:'
       '@nestjs/common':
         specifier: ^10.0.0
         version: 10.3.8(reflect-metadata@0.2.2)(rxjs@7.8.1)
