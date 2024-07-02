@@ -39,8 +39,6 @@ export class CommentOnQuestionController {
       authorId: userId,
     })
 
-    console.log('Resultado: ', result)
-
     if (result.isLeft()) {
       throw new BadRequestException()
     }
