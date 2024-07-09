@@ -52,7 +52,8 @@ describe('Fetch Question Comments', () => {
     })
 
     expect(result.value?.comments).toHaveLength(3)
-    // expect(result.value?.comments).toEqual( // Erro por algum motivo divino
+    // expect(result.value?.comments).toEqual(
+    //   // Erro por algum motivo divino
     //   expect.arrayContaining([
     //     expect.objectContaining({
     //       author: 'John Doe',
