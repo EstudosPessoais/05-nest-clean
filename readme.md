@@ -42,6 +42,9 @@ pnpm start:dev
 ```
 
 ### Tests
+- Statements (87.88%) `6441/7329`
+- Branches   (86.44%) `510/590`
+- Functions  (88.55%) `387/437`
+- Lines      (87.88%) `6441/7329`
 
-
-
+![alt text](./doc/coverage.png)
