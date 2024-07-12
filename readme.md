@@ -1,14 +1,17 @@
 # Project NestJS Rocketseat 🚀
 
+- [Description](#-how-to-build)
+- [How to build](#-how-to-build)
+- [Tests](#-how-to-build)
+- [Certificate](#-how-to-build)
 
-
-### 📄 Project Description
+## 📄 Project Description
 
 This project is designed to learn and understand how to use NestJS, applying best practices such as Domain-Driven Design (DDD) and Clean Architecture.
 
 The project is a forum where users can create questions, provide answers, and leave comments.
 
-### 📝 How to build 
+## 📝 How to build 
 
 _Requirements_
 - **Node:** v20.15.0
@@ -41,10 +44,14 @@ pnpm start:dev
 
 ```
 
-### Tests
+## 🧪 Tests
 - Statements (87.88%) `6441/7329`
 - Branches   (86.44%) `510/590`
 - Functions  (88.55%) `387/437`
 - Lines      (87.88%) `6441/7329`
 
-![alt text](./doc/coverage.png)
+![Coverage tests](./doc/coverage.png)
+
+## Certificate
+
+![Certificate](./doc/Certificate.png)
