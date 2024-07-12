@@ -8,6 +8,10 @@ export default defineConfig({
     exclude: ['./data', './dist', './node_modules'],
     globals: true,
     root: './',
+    coverage: {
+      exclude: ['data', 'dist', 'node_modules'],
+      reporter: ['text', 'json', 'html'],
+    },
   },
   plugins: [
     tsConfigPaths(),

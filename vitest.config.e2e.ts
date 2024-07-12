@@ -9,6 +9,10 @@ export default defineConfig({
     globals: true,
     root: './',
     setupFiles: ['./test/setup-e2e.ts'],
+    coverage: {
+      exclude: ['data', 'dist', 'node_modules'],
+      reporter: ['text', 'json', 'html'],
+    },
   },
   plugins: [
     tsConfigPaths(),
