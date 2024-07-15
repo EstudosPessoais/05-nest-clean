@@ -1,9 +1,9 @@
 # Project NestJS Rocketseat 🚀
 
-- [Description](#-how-to-build)
+- [Description](#-project-description)
 - [How to build](#-how-to-build)
-- [Tests](#-how-to-build)
-- [Certificate](#-how-to-build)
+- [Tests](#-tests)
+- [Certificate](#certificate)
 
 ## 📄 Project Description
 
